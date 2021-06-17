@@ -1,7 +1,7 @@
 package ru.job4j;
 
-public class Main {
+public class Info {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("17.06.2021");
     }
 }
