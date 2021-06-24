@@ -1,6 +1,7 @@
 package ru.job4j.calculator;
 
 public class Calculator {
+    @SuppressWarnings("checkstyle:WhitespaceAround")
     public static void main(String[] args) {
         int one = 1;
         int two = 2;
@@ -9,7 +10,7 @@ public class Calculator {
         int five = 5;
         int onePlusTwo = one + two;
         System.out.println(onePlusTwo);
-        int sixDivTwo = six/two;
+        int sixDivTwo = six / two;
         System.out.println(sixDivTwo);
         int fiveMinusTwo = five - two;
         System.out.println(fiveMinusTwo);
