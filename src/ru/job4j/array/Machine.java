@@ -14,7 +14,6 @@ public class Machine {
                 keep -= coins[i];
                 size += 1;
             }
-
         }
         return Arrays.copyOf(rsl, size);
     }

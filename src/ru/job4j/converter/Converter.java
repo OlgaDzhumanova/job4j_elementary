@@ -11,12 +11,6 @@ public class Converter {
         return rsl;
     }
 
-    //public static void main(String[] args) {
-        //int euro = Converter.rubleToEuro(400);
-        //System.out.println("400 rubles are " + euro + " euro.");
-        //int dollar = Converter.rubleToDollar(400);
-        //System.out.println("400 rubles are " + dollar + " dollar.");
-        //}
         public static void main(String[] args) {
             int inEuro = 140;
             int expectedEuro = 2;
