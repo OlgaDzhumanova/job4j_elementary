@@ -6,8 +6,11 @@ public class JavaNameValidator {
         if (name.length() > 0 && isLowerLatinLetter(name.charAt(0))) {
             for (int i = 1; i < name.length(); i++) {
                 int code = name.codePointAt(i);
-                if (isSpecialSymbol(code) || isUpperLatinLetter(code)
-                        || isLowerLatinLetter(code) || Character.isDigit(code)) {
+                if (!isSpecialSymbol(code) && !isUpperLatinLetter(code)
+                         && !isLowerLatinLetter(code) && !Character.isDigit(code)) {
+                    result = false;
+                    break;
+                } else {
                     result = true;
                 }
             }
